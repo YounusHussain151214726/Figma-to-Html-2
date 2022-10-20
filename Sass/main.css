@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #1e1e1e;
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-flex .img-logo span {
+  font-size: 2.36rem;
+  line-height: 3.563;
+  color: #ffffff;
+  font-style: normal;
+}
+.nav-flex ul {
+  list-style: none;
+}
+.nav-flex ul li {
+  display: inline-block;
+  margin: 0 0 0 2.177rem;
+}
+.nav-flex ul li:first-child a {
+  color: #05f591;
+}
+.nav-flex ul li a {
+  font-size: 1.215rem;
+  font-weight: 600;
+  font-style: normal;
+  color: #d8d8d8;
+  line-height: 1.183rem;
+  text-decoration: none;
+}
+.nav-flex button {
+  width: 10.625rem;
+  height: 3.6rem;
+  background: #06f591;
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+}
+.nav-flex img {
+  padding: 0 0.2rem 0 0;
+  color: #173640;
+}
+
+main {
+  background: #1e1e1e;
+}
+main .split {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main .split .right-class {
+  width: 50%;
+  align-self: flex-start;
+  padding: 5rem 5rem;
+}
+main .split .right-class h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 3.75rem;
+  line-height: 5.625rem;
+  /* identical to box height */
+  color: #ffffff;
+}
+main .split .right-class h1::after {
+  content: "Wallpaper";
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 3.75rem;
+  line-height: 5.625rem;
+  background: linear-gradient(87.12deg, #05f591 -3.44%, #05f5d9 103.31%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+main .split .right-class span {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #ffffff;
+}
+main .split .right-class p {
+  font-family: "Poppins", sans-serif;
+  margin-top: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.438rem;
+  line-height: 2.125rem;
+  width: 80%;
+  color: #ffffff;
+}
+main .split .right-class .button-anchor {
+  margin-top: 3rem;
+}
+main .split .right-class .button-anchor button {
+  width: 14rem;
+  height: 3rem;
+  background: linear-gradient(85.13deg, #05f591 -12.75%, #05f5d9 121.55%);
+  border-radius: 0.625rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 36px;
+  color: #173640;
+}
+main .split .right-class .button-anchor button img {
+  position: relative;
+  top: 0.5rem;
+}
+main .split .right-class .button-anchor a {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  margin-left: 1rem;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #ffffff;
+}
+main .left-class img {
+  display: block;
+  width: 100%;
+  padding: 2rem 2rem;
+}/*# sourceMappingURL=main.css.map */
